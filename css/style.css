@@ -1,0 +1,60 @@
+.container-box{
+    height: 200px;
+    background-color: rosybrown;
+    border: 2px solid;
+}
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+#box1{
+    background-color: teal;
+    position: relative;
+    left: 70px;
+    top: -20px;
+    z-index: 4;
+}
+#box1:hover{
+    z-index: 20;
+}
+#box2{
+    background-color: purple;
+    position: relative;
+    z-index: 3;
+}
+#box2:hover{
+    z-index: 20;
+}
+#box3{
+    background-color: red;
+    position: relative;
+    left: -70px;
+    top: 20px;
+    z-index: 2;
+    /* position: absolute;
+    left: 50;
+    bottom: 50; */
+    /* position: fixed;
+    right: 40px;
+    bottom: 40px; */
+    /* position: sticky;
+    top: 0px; */
+}
+#box3:hover{
+    z-index: 20;
+}
+#box4{
+    position: relative;
+    left: -140px;
+    top: 40px;
+    background-color: blue;
+    z-index: 1;
+}
+#box4:hover{
+    z-index: 20;
+}
+li:first-child{
+    color: tomato;
+}
